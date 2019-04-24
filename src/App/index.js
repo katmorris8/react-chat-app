@@ -8,10 +8,7 @@ import NewChatRoom from "../NewChatRoom";
 class App extends Component {
   render() {
     return <div className="App">
-      <ChatRooms />
       <Messages />
-      <MessageForm />
-      <NewChatRoom />
     </div>;
   }
 }
