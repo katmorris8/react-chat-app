@@ -23,8 +23,8 @@ export default class Messages extends Component {
         {DUMMY_DATA.map((message, index) => {
           return (
             <div key={index} className="message">
-              <div>{message.senderId}</div>
-              <div>{message.text}</div>
+              <div className="sender-id">{message.senderId}</div>
+              <div className="message-text">{message.text}</div>
             </div>
           )
         })}

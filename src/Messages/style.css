@@ -1,0 +1,16 @@
+.message {
+  padding: 20px;
+  font-family: 'Helvetica';
+}
+
+.sender-id {
+  font-size: 12px;
+  padding: 0px 0px 5px 10px;
+}
+
+.message-text {
+  color: white;
+  background-color: darkcyan;
+  padding: 10px;
+  border-radius: 10px;
+}
